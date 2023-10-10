@@ -1,1 +1,1 @@
-contact us: hello@adastratechnologiesllc.com/
+contact us: hello@adastratechnologiesllc.com
