@@ -7,32 +7,46 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  line-height: 1.6;
-  color: #424242; /* Dark gray, instead of harsh black */
-  background-color: #ECEFF1; /* Light blue-gray background */
+  background: #FAFAFA; /* Material Design light grey background */
+  color: #212121; /* Material Design text color for high-emphasis text */
 }
 
 nav {
-  background-color: #90A4AE; /* Softer shade of blue-gray */
-  box-shadow: 0 2px 2px -2px #424242; /* Softer shadow */
+  background-color: #6200EE; /* Material Design deep purple as primary color */
+  color: white;
+}
+
+nav .nav-wrapper {
+  padding: 0 20px; /* Added padding for alignment */
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
 }
 
 nav a {
-  color: #FFFFFF;
-  transition: color 0.3s ease;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
 }
 
 nav a:hover {
-  color: #CFD8DC; /* Lighter shade for hover */
+  background-color: #3700B3; /* A slightly darker purple for hover effect */
 }
 
-/* ... other styles ... */
+header, footer {
+  text-align: center;
+  padding: 1rem 0;
+}
 
 footer {
-  background-color: #90A4AE;
+  background-color: #6200EE; /* Same as navbar for consistency */
   color: white;
-  padding: 1rem 0;
-  box-shadow: 0 -2px 2px -2px #424242; /* Softer shadow */
 }
 
 /* Additional styles can be added here */
