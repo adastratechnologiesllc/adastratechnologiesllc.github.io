@@ -6,13 +6,13 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Source Sans Pro', Arial, sans-serif; /* This font is similar to the one used on realworld.co */
   line-height: 1.6;
   color: #333;
 }
 
 header {
-  background: #005f73;
+  background: #131418; /* Darker shade for header */
   color: #fff;
   padding: 1rem 0;
   text-align: center;
@@ -40,17 +40,21 @@ nav a {
 
 main {
   padding: 2rem;
+  background-color: #f9f9f9; /* Light grey background for the main content area */
 }
 
 section {
   margin-bottom: 1rem;
+  background-color: #fff; /* White background for sections */
+  padding: 1rem;
+  border-radius: 8px; /* Rounded corners for sections */
 }
 
 footer {
   text-align: center;
   padding: 1rem 0;
-  background: #002e2c;
+  background: #131418; /* Consistent with the header */
   color: #fff;
 }
 
-/* Add more styles as needed */
+/* Additional styles can be added here */
