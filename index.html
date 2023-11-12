@@ -4,23 +4,37 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Ad Astra Technologies LLC</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
 <header>
-  <h1>Ad Astra Technologies LLC</h1>
-  <nav>
-    <ul>
-      <li><a href="#intro">Intro</a></li>
-      <li><a href="#support">Support</a></li>
-      <li><a href="#hiring">Hiring</a></li>
-      <li><a href="#privacy">Privacy Policy</a></li>
-      <li><a href="#current-apps">Current Apps</a></li>
-    </ul>
+  <nav class="nav-wrapper deep-purple darken-3">
+    <div class="container">
+      <a href="#" class="brand-logo center">Ad Astra Technologies LLC</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#intro">Intro</a></li>
+        <li><a href="#support">Support</a></li>
+        <li><a href="#hiring">Hiring</a></li>
+        <li><a href="#privacy">Privacy Policy</a></li>
+        <li><a href="#current-apps">Current Apps</a></li>
+      </ul>
+    </div>
   </nav>
+
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="#intro">Intro</a></li>
+    <li><a href="#support">Support</a></li>
+    <li><a href="#hiring">Hiring</a></li>
+    <li><a href="#privacy">Privacy Policy</a></li>
+    <li><a href="#current-apps">Current Apps</a></li>
+  </ul>
 </header>
 
-<main>
+<main class="container">
   <section id="intro">
     <h2>Intro</h2>
     <p>We are an Indie app development company founded in 2023 with the mission of building simple tools and games that promote mindfulness and intentionality for humanity.</p>
@@ -50,11 +64,17 @@
         </a>
     </div>
 </section>
-
 </main>
 
-<footer>
-  <p>&copy; 2023 Ad Astra Technologies LLC. All rights reserved.</p>
+<footer class="page-footer deep-purple darken-3">
+  <div class="container">
+    <p class="center-align">&copy; 2023 Ad Astra Technologies LLC. All rights reserved.</p>
+  </div>
 </footer>
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
+
