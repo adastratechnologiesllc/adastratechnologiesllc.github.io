@@ -6,55 +6,33 @@
 }
 
 body {
-  font-family: 'Source Sans Pro', Arial, sans-serif; /* This font is similar to the one used on realworld.co */
+  font-family: 'Roboto', sans-serif;
   line-height: 1.6;
-  color: #333;
+  color: #424242; /* Dark gray, instead of harsh black */
+  background-color: #ECEFF1; /* Light blue-gray background */
 }
 
-header {
-  background: #131418; /* Darker shade for header */
-  color: #fff;
-  padding: 1rem 0;
-  text-align: center;
-}
-
-header h1 {
-  margin-bottom: 1rem;
-}
-
-nav ul {
-  list-style: none;
-  padding: 1rem 0;
-}
-
-nav ul li {
-  display: inline;
-  margin-right: 20px;
+nav {
+  background-color: #90A4AE; /* Softer shade of blue-gray */
+  box-shadow: 0 2px 2px -2px #424242; /* Softer shadow */
 }
 
 nav a {
-  color: #fff;
-  text-decoration: none;
-  font-weight: bold;
+  color: #FFFFFF;
+  transition: color 0.3s ease;
 }
 
-main {
-  padding: 2rem;
-  background-color: #f9f9f9; /* Light grey background for the main content area */
+nav a:hover {
+  color: #CFD8DC; /* Lighter shade for hover */
 }
 
-section {
-  margin-bottom: 1rem;
-  background-color: #fff; /* White background for sections */
-  padding: 1rem;
-  border-radius: 8px; /* Rounded corners for sections */
-}
+/* ... other styles ... */
 
 footer {
-  text-align: center;
+  background-color: #90A4AE;
+  color: white;
   padding: 1rem 0;
-  background: #131418; /* Consistent with the header */
-  color: #fff;
+  box-shadow: 0 -2px 2px -2px #424242; /* Softer shadow */
 }
 
 /* Additional styles can be added here */
